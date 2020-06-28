@@ -1,1 +1,1 @@
-loadstring(game:HttpGet("")()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Leaf-Hub/master/Load"))()
