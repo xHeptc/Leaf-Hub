@@ -7,7 +7,7 @@ local games = {
 local check = games[game.PlaceId] -- checks for the game in the list
 
 if check then
-    loadstring(game:HttpGet(check.src))()
+    loadstring(game:HttpGet(check.src, true))()
 else
     local Players = game:GetService("Players")
     Players.LocalPlayer:Kick(string.format("%s is unsupported. Please DM xHeptc#5183 if you think this was a mistake.", MarketplaceService:GetProductInfo(game.PlaceId).Name))
