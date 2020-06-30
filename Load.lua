@@ -1,7 +1,7 @@
 local MarketplaceService = game:GetService("MarketplaceService")
 
 local games = {
-    [402122991] = {src="https://raw.githubusercontent.com/xHeptc/Leaf-Hub/master/RedWoodHUB.lua"}, -- RedWood Prison
+    [402122991] = {src="https://pastebin.com/raw/ZS8Cp2FA"}, -- RedWood Prison
 } -- game list
 
 local check = games[game.PlaceId] -- checks for the game in the list
